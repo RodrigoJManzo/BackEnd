@@ -1,0 +1,38 @@
+[
+   {
+      "title": "Monitor",
+      "price": 200,
+      "thumbnail": "https://www.lg.com/es/images/monitores/md05928956/gallery/24MK430H-B_D02.jpg",
+      "id": 1
+   },
+   {
+      "title": "Teclado",
+      "price": 50,
+      "thumbnail": "https://bgreat.uy/wp-content/uploads/2021/06/120153-Teclado-Gaming-Mecanico-Vertux-Raidkey-4.jpg",
+      "id": 2
+   },
+   {
+      "title": "Mouse",
+      "price": 15,
+      "thumbnail": "https://www.hd-tecnologia.com/imagenes/articulos/2022/03/Llega-a-America-Latina-el-Mouse-para-Gaming-EVGA-X12-2.jpg",
+      "id": 3
+   },
+   {
+      "title": "Gabinete",
+      "price": 250,
+      "thumbnail": "https://assets.spartangeek.com/cc/gabinete-economico-pc.jpg",
+      "id": 4
+   },
+   {
+      "title": "Fuente",
+      "price": 400,
+      "thumbnail": "https://axa.com.ar/webaxa/3044-home_default/fuente-noganet-550w-atx-power-supply.jpg",
+      "id": 5
+   },
+   {
+      "title": "Monitor",
+      "price": 200,
+      "thumbnail": "https://www.lg.com/es/images/monitores/md05928956/gallery/24MK430H-B_D02.jpg",
+      "id": 6
+   }
+]

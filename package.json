@@ -1,0 +1,15 @@
+{
+  "name": "2da-entrega-coder",
+  "version": "1.0.0",
+  "description": "2da entrega del curso backend",
+  "main": "main.js",
+  "scripts": {
+    "start": "node contenedor.js",
+    "test": "testing"
+  },
+  "author": "Rodrigo Manzo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
