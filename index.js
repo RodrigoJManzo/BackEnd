@@ -11,7 +11,7 @@ const contenedorProductos = new contenedor(`productos`)
 const express = require ('express')
 const app = express()
 app.use(express.json())
-const PORT = 8080
+const PORT = process.env.PORT || 8080
 const server = app.listen(PORT, ()=> {
     console.log(`El servidor http esta escuchando el puerto ${server.address().port}`)
 })
@@ -32,8 +32,8 @@ function randomItem  (items){
 }
 app.get(`/random`, (req, res)=>{
     contenedorProductos.getAll()
-    .then(item=>{
-        res.json(randomItem(item))
+    .then(items=>{
+        res.json(randomItem(items))
     })
 })
 
