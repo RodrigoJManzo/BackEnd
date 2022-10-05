@@ -17,6 +17,9 @@ const server = app.listen(PORT, ()=> {
 })
 server.on('error', error => console.log(`Error en el Servidor ${error}`))
 
+app.get(`/`, (req, res)=>{
+    res.send(`WARNING-----SERVIDOR AMATEUR-----WARNING`)
+})
 
 app.get(`/productos`, (req, res)=>{
     contenedorProductos.getAll()
