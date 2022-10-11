@@ -10,6 +10,14 @@
   "author": "Rodrigo Manzo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoJManzo/BackEnd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RodrigoJManzo/BackEnd/issues"
+  },
+  "homepage": "https://github.com/RodrigoJManzo/BackEnd#readme"
 }

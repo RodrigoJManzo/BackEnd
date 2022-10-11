@@ -30,10 +30,10 @@ app.get(`/productos`, (req, res)=>{
 
 function randomItem  (items){
     const randomIndex = Math.floor(Math.random()*items.length);
-    const item = items[randomItem];
+    const item = items[randomIndex];
     return item
 }
-app.get(`/random`, (req, res)=>{
+app.get(`/productoRandom`, (req, res)=>{
     contenedorProductos.getAll()
     .then(items=>{
         res.json(randomItem(items))
